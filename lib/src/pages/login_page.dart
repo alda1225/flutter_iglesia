@@ -11,6 +11,7 @@ class LoginPage extends StatelessWidget {
   }
 }
 
+
 Widget _loginForm(BuildContext context) {
   final bloc = Provider.of(context);
   final size = MediaQuery.of(context).size;
