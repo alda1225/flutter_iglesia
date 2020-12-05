@@ -97,11 +97,11 @@ class _MyHomePageState extends State<HomePage> {
   _getPage(int page) {
     Size size = MediaQuery.of(context).size;
     switch (page) {
-      case 0:
-
       
+      case 0:
         return
           ImagenUpload();
+
       case 1:
         return Column(
           children: <Widget>[
