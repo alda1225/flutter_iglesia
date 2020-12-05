@@ -162,6 +162,7 @@ class _Upload extends State<ImagenUpload> {
 
     scaffoldKey.currentState.showSnackBar(snackbar);
   }
+  
 
   Widget _mostrarFoto() {
     if (imagenModel.url != null) {
