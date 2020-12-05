@@ -98,6 +98,8 @@ class _MyHomePageState extends State<HomePage> {
     Size size = MediaQuery.of(context).size;
     switch (page) {
       case 0:
+
+      
         return
           ImagenUpload();
       case 1:
