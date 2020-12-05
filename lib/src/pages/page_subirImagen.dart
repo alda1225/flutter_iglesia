@@ -184,6 +184,7 @@ class _Upload extends State<ImagenUpload> {
     }
   }
 
+
   _procesarImagen(ImageSource origen) async {
     photo = await ImagePicker.pickImage(
       source: origen,
